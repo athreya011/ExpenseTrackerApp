@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_main"
+    app:startDestination="@id/dashboardFragment">
+
+    <fragment
+        android:id="@+id/dashboardFragment"
+        android:name="com.example.expensetrackerapp.ui.dashboard.DashboardFragment"
+        android:label="Dashboard"
+        tools:layout="@layout/fragment_dashboard" />
+
+    <fragment
+        android:id="@+id/addEditExpenseFragment"
+        android:name="com.example.expensetrackerapp.ui.expense.AddExpenseFragment"
+        android:label="Add Expense"
+        tools:layout="@layout/fragment_add_expense">
+        <argument
+            android:name="expenseId"
+            app:argType="string"
+            app:nullable="true"
+            android:defaultValue="@null" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/expenseHistoryFragment"
+        android:name="com.example.expensetrackerapp.ui.expense.ExpenseHistoryFragment"
+        android:label="History"
+        tools:layout="@layout/fragment_expense_history" />
+
+    <fragment
+        android:id="@+id/reportsFragment"
+        android:name="com.example.expensetrackerapp.ui.reports.ReportsFragment"
+        android:label="Reports"
+        tools:layout="@layout/fragment_reports" />
+
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.expensetrackerapp.ui.profile.ProfileFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_profile" />
+
+    <fragment
+        android:id="@+id/categoryManagerFragment"
+        android:name="com.example.expensetrackerapp.ui.category.CategoryManagerFragment"
+        android:label="Categories"
+        tools:layout="@layout/fragment_category_manager" />
+
+</navigation>
