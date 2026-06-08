@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">ExpenseTrackerApp</string>
+
+    <!-- Auth -->
+    <string name="login">Login</string>
+    <string name="signup">Sign Up</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="username">Username</string>
+    <string name="dont_have_account">Don\'t have an account? Sign Up</string>
+    <string name="already_have_account">Already have an account? Login</string>
+
+    <!-- Navigation -->
+    <string name="dashboard">Dashboard</string>
+    <string name="add_expense">Add Expense</string>
+    <string name="history">History</string>
+    <string name="categories">Categories</string>
+    <string name="reports">Reports</string>
+    <string name="profile">Profile</string>
+
+    <!-- Dashboard -->
+    <string name="total_expense">Total Expenses</string>
+    <string name="recent_transactions">Recent Transactions</string>
+
+    <!-- Expense Form -->
+    <string name="amount">Amount</string>
+    <string name="category">Category</string>
+    <string name="date">Date</string>
+    <string name="note">Note (optional)</string>
+    <string name="save">Save Expense</string>
+    <string name="update">Update Expense</string>
+    <string name="title_add_expense">Add Expense</string>
+    <string name="title_edit_expense">Edit Expense</string>
+
+    <!-- Profile -->
+    <string name="logout">Logout</string>
+
+    <!-- Errors -->
+    <string name="error_invalid_email">Enter a valid email address</string>
+    <string name="error_empty_field">This field cannot be empty</string>
+    <string name="error_password_length">Password must be at least 6 characters</string>
+    <string name="error_passwords_mismatch">Passwords do not match</string>
+</resources>
